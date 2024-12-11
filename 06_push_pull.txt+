@@ -1,0 +1,13 @@
+//subir cambios
+git push origin turama 
+ejem:
+git push origin main
+
+
+
+//traer cambios del repositorio remoto que no tengo en mi local
+git pull origin tu rama
+
+ejem:
+
+git pull origin main
