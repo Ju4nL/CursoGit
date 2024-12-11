@@ -1,0 +1,9 @@
+// para configurar el git
+
+git config --global user.name "Juan"
+git config --global user.email "juan@gmail.com"
+
+// para confirmar datos de configuracion
+git config --list
+
+git config user.name

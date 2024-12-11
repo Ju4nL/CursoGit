@@ -1,0 +1,43 @@
+Instalando Git
+Antes de empezar a utilizar Git, tienes que instalarlo en tu computadora.
+
+Ubuntu:
+
+Correr esto en la terminal
+
+apt-get install git
+
+
+
+Para otras distribuciones de linux:
+
+https://git-scm.com/download/linux
+
+
+
+Mac:
+
+Correr esto en la terminal
+
+brew install git
+
+Si no tienes instalado brew, corre esto en la terminal
+
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+
+
+
+Windows:
+
+https://git-scm.com/download/winfinalmentegit --version
+
+
+
+
+
+Para confirmar que has instalado bien git, confirma que este comando te arroje la version de git que tienes instalado
+
+
+
+git --version 

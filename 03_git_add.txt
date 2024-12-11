@@ -1,0 +1,11 @@
+
+//para validar si tenemos cambios usamos el git status
+git status
+*si sale en rojo es que necesitas agregalos
+*si esta en verde son los que ya se agregaron 
+
+//Nos sirve para añadir del area directy a stagging
+git add "nombre de tu archivo"
+
+// usamos . para que se agregue todos los archivos
+git add . 
