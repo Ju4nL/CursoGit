@@ -9,3 +9,7 @@ git add "nombre de tu archivo"
 
 // usamos . para que se agregue todos los archivos
 git add . 
+
+
+// para ya guardar los cambios en git usamos
+git commit --m "tu mensaje"
