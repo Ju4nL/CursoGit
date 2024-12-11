@@ -1,0 +1,5 @@
+//para ver el estado de nuestros commit
+
+git log
+
+
