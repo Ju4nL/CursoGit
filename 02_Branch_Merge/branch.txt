@@ -1,0 +1,25 @@
+***NOTA si hace git log : solo te mostrara los commit de la rama en donde estas parado
+
+branch=> es rama
+merge=>mesclar codigo
+
+git branch => te sirve para listar las ramas que tienes creadas
+
+*main  el * significa la rama en donde estas actualmente
+
+
+--crear tu rama
+git branch turama
+
+--Eliminar la rama le agregamos el -d
+git branch -d turama
+
+
+
+--Para acambiar el nombre de la rama agregamos -m
+git branch -m nombre_viejo nombre_nuevo
+
+
+
+--
+git checkout
