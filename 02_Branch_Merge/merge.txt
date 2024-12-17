@@ -1,0 +1,59 @@
+
+git merge rama_donde_trabajste  ramaprincipal
+
+--git merge nos sirve para unir dos ramas a una rama principal
+
+--para usarlo debes ubicarte en la main o principal que haras el merge y desde ahí ejecutar el comando
+
+git merge rama_donde_trabajste  ramaprincipal
+
+--esto nos permite traer todos los cambiso de la rama aanterior a tu rama principal
+--igual si dos personas modificaron la misma linea de código habrá conflicto que git no podrá resolver
+
+
+
+/*ALGORITMOS*/
+
+**fast forward** significa que git resolvido todos los cmabios y unión todos los commit ,es el merge mas sencillo , cuando no modifican la rama principal y se puede hacer un merge sin conflictos
+-------------------------------------------
+-------------------------------------------
+
+
+**Recursive o ort**
+
+Merge made by the 'ort' strategy.
+
+En este caso será cuando hay varios modificaciones en la rama inicial lo mas común en los proyectos colaborativos y al hacer merge se hace con los nuevos commit de la rama principal
+
+---------------------------------------------------------------------
+
+
+
+
+************Conflictos**************
+****conflicto antes del merge
+
+wl working directory esta sucio => que hay archivo que han sido modificados y que en la otra rama también se modifico los mismo
+
+-Soluciones:
+
+-Limpiar el working directory
+-Agregar los cambios y commit en la rama principal
+
+--si limpiamos el working ya no habrá conflicto
+-- si agregamos los cambios o ya habían agregado los cambios se da otro conflicto
+*****conflicto durante el merge
+
+--al hacer el merge saldrá el visual studio 
+
+<<<<<<< HEAD
+linea1.1.3
+=======
+linea1.1.2
+>>>>>>> nuevo_cambio2
+
+
+con opciones arriba 
+accept current change | accept Incoming change | accept Both change 
+
+aceptar los cambios actuale | aceptar los cambios que traemos del merge | aceptar los dos cambios y no eliminar nada
