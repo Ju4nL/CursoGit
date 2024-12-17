@@ -1,0 +1,7 @@
+git help te ayudara a ver todos los comando de github
+
+git help --all
+
+//para saber la documentacion del comando
+git help tucomando
+git help push 
