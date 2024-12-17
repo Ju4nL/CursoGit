@@ -1,0 +1,4 @@
+git mv .\archivo6.txt .\nombrenuevo.txt
+
+renombre del archivo viejo al archivo nombrenuevo
+un atajo para renombrar archivo en git
