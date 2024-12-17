@@ -21,5 +21,15 @@ git branch -m nombre_viejo nombre_nuevo
 
 
 
---
-git checkout
+--Te sirve para viajar en el tiempo de tu rama , para volver a algun commit del tiempo
+git checkout tucommitanterior
+
+
+para volver rapidamente o hace git log y bsucas el ultimo commit y haces el mismo paso o haces
+git checkout turama
+
+
+
+--para viajar entre ramas tambien funciona igual
+git checkout turama
+ 
