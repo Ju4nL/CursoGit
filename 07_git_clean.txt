@@ -1,0 +1,2 @@
+si no hiciste git add . 
+puedes eliminar todos los cambios que hiciste , como si no guardaras tu avance
