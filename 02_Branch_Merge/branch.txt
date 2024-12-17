@@ -33,3 +33,7 @@ git checkout turama
 --para viajar entre ramas tambien funciona igual
 git checkout turama
  
+
+
+---creamos la rama y nos movemos a esa rama en un solo comando con -b
+ git checkout -b rama_nueva2
