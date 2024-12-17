@@ -1,0 +1,14 @@
+Git revert nos sirve para revertir los cambios ya commit , esto quiero decir que podemos regresar a algun commit anterior y quedarnos con esos cambio eliminando los ultimos cambios
+git log
+
+
+commit 716caa7422cff30f976b1bb3ab1fa3ba28eb68b7
+Author: Juan <juanlozadacochaches@gmail.com>
+Date:   Mon Dec 16 19:29:24 2024 -0500
+
+git revert tucommit
+git revert 716caa7422cff30f976b1bb3ab1fa3ba28eb68b7
+
+
+accept 
+aceptas para que se quede los cambios hasta el commit que quieres regresar
