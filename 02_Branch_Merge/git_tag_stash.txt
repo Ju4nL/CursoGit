@@ -1,0 +1,45 @@
+git stash
+
+stash -> reserva o escondite
+
+cuando estas trabajando en algo y de repente debes cambiar de rama y como esta incompleto no puedes hacer un commit entonces para guardar tu avance sin que se pierda haces un 
+git stash => guardas tus cambios
+
+git stash pop => para recuperar esos cambios
+
+-git stash
+-git stash pop 
+
+
+por cada git stash es como una pila se va guardando cada uno
+y si quieres botar haces pop pero va liberando uno por uno
+
+
+git stash list => para ver los stash que se están guardando
+
+git stash clear => limpiamos el stash
+
+
+
+********************
+git tag 
+********************
+git tag nombre_tag
+
+git tag -a tutag -m "mensaje de tu tag"
+
+
+si requieres ponerle un tag a un commit anterior
+ git tag -a v0.0 -m "version comenzando " 16f39b995aeb7b97636eaaa0a23cd86ea8279a2e
+
+
+y con git checkout nos podemos mover en los tag que tengamos
+git checkout  tu_tag
+
+
+
+con -d podemos eliminar el tag que queramos
+git tag -d tu_tag_a_eliminar
+git tag -d v0.0
+
+
