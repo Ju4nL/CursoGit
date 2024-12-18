@@ -1,0 +1,35 @@
+git remote 
+--para saber cual es nuestro repositorio remoto
+
+git remote
+origin
+
+--con -v salddra la url completa	
+git remote -v
+origin  https://github.com/Ju4nL/CursoGit.git (fetch)
+origin  https://github.com/Ju4nL/CursoGit.git (push)
+ 
+
+
+para clovar usamos 
+
+git clone tu_url_https
+
+te va traer todo el repositorio remoto a tu local
+
+
+para clonar por ssh se hace lo siguiente
+1.Generar clave ssh local ejemplo
+	ssh-keygen -t rsa -b 4096 -C "juanlozadacochaches@gmail.com"
+con ls ~/.ssh
+podemos ver las claves que hemosc creado
+2.abrimos el archivo .ssh/id_rsa.pub 
+3.copian tal cual la llave y se van a GitHub 
+4.En la parte de setting add ssh , crean una nueva ssh key
+5.Una vez creada ya gregada se van a su repositorio y copian el texto para clonar por ssh 
+
+
+luego 
+git clone tu_url_ssh
+
+git clone git@github.com:Ju4nL/CursoGit2.git
