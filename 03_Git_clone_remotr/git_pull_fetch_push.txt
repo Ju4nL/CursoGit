@@ -1,0 +1,56 @@
+*************+++
+git fetch
+*************+++
+Trae cambios de forma segura
+++++++
+
+Sirve para descargar cambios de otro repositorio
+es para observar los cambios y no se hace merge
+
+
+git fetch origin main => con eso traes los cambios pero no haces merge con el proyecto
+
+git checkout origin/main => te mueves a larama donde están los cambios que trajiste con fecth
+
+
+y si quiere ya unir los cambios haces un git merge
+
+git merge origin/main 
+
+
+
+*************+++
+git pull  = (git fetch + git merge)
+*************+++
+te trae los cambios y hace el merge automáticamente
+
+git pull origin main
+
+
+
+
+
+*************+++
+git push
+*************+++
+Enviar contenido del repositorio local al remoto
+
+git add .
+git commit -m "mensaje"
+git push origin main
+
+
+
+si el repositorio tiene commit y nosostros no tenemos esos commit
+no se puede hacer git push origin main
+
+el camino correcto hacer primero el git pull para traer cambios y luego el push para subir
+
+git add .
+git commit -m "mensaje"
+git pull origin main
+git push origin main
+
+no usar el force pq eliminará commit 
+
+
