@@ -1,0 +1,23 @@
+**********
+git cherry-pick
+**********
+sirve para aplicar cambios del commit selccionado y crea un nuevo commit
+puedes causar commit duplicados
+
+puedes seleccionar el commit de cualquier rama y traerlo a tu rama que quieras
+
+ubícate en tu rama principal que quieres y aplica el comando:
+
+git Cherry-pick tu_commitseleccionado_de_cualquier_rama
+git cherry-pick b4c7ab05a082522644516dc4736baecb7ded84e2
+
+
+**********
+git rebase
+**********
+
+Es conflictivo , te cambia la base de una rama  
+
+combina los commit a una nueva base  , se  hará una historia lineal de commit
+
+git rebase tu_rama_base
