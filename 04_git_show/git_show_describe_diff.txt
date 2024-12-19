@@ -1,0 +1,59 @@
+*********
+git show
+ 
+*********
+
+git show nuestro_commit
+git show 49710fdf7b36c8c6478d89af63d557d2280afc7e
+
+
+te muestra  las diferencias y cambios que se hacen
+tambie puedes hacerlo con los tag
+
+git show tutag
+
+
+
+*********
+git diff
+ 
+*********
+se usa con git status y git log
+
+git diff commit_comparar  commit_actual_comparar
+git diff  00b15131fdaa3d228271f89724b1113f872d742b 73c3d4dec34a9b38f37846beb6451a46c8cabd89
+
+
+te permite comparar entre commits 
+index a51814e..8dab7c8 100644
+--- a/comparacion.txt
++++ b/comparacion.txt
+@@ -1,10 +1,10 @@  el 10 significa las líneas de contexto
+
+
+si solo haces git diff y no has guardado tus cambiso te mostrara lo que vas modificando comparado al ultimo commit
+
+
+
+*********
+git shortlog
+ 
+*********
+agrupa los commit por autor y muestra la primera linea del mensaje
+
+
+git shortlog
+este para ver resumido la cantidad de commit que han echo cada persona que ha trabajado en el proyecto
+git shortlog --summary --numbered
+
+
+
+
+
+*********
+git describe
+ 
+*********
+busca el ultimo tag anotados que tiene el proyecto
+v1.0-13-g73c3d4d ->el 13 es cantidad de commit que va haciendo 
+
