@@ -1,0 +1,65 @@
+************
+git blame
+************
+identificar quien fue el que modifico en el proyecto
+
+identifica quien modifico
+
+git blame archivo
+git blame .\archivo_rebase.txt    
+
+
+con -L podemos identificar y acotar las líneas que queremos revisar del archivo
+ git blame -L 3,5 .\comparacion.txt 
+
+
+************
+git grep
+************
+
+busca la palabra en los archivos 
+
+git grep  tuplabra
+comparacion.txt:linea4 tuplabra
+comparacion.txt:linea9 tuplabra
+comparacion.txt:linea14 tuplabra
+
+para identificar en que linea se encuentra la palabra
+git grep -n tuplabra
+
+
+para saber cuantas apariciones se ve la palabra en los documentos
+git grep  -c tuplabra
+
+
+si quieres buscar en un commit especifico haces lo siguiente
+git grep  -c tuplabra  tucommit
+
+
+
+
+********
+HEAD~ 
+********
+git checkout HEAD~2
+
+git checkout HEAD^2
+
+regresa dos commit anterior
+
+
+
+
+********
+.gitignore
+********
+
+********
+git alias
+********
+puedes guardar los comandos en un alias y luego usarlos
+
+git config --global alias.unstage 'reset HEAD'
+git add .
+git unstage .\archivo_rebase.txt      
+
